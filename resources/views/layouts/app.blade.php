@@ -12,6 +12,7 @@
     <!-- Scripts -->
       <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet" />
         <!-- Font Icons -->
+        <link rel="icon" href="{{ asset('frontend/images/pust_logo.png') }}" type="image/gif">
         <link href="{{ asset('frontend/assets/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" />
         <link href="{{ asset('frontend/assets/ionicon/css/ionicons.min.css') }}" rel="stylesheet" />
         <link href="{{ asset('frontend/css/material-design-iconic-font.min.css') }}" rel="stylesheet">
