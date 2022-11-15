@@ -11,7 +11,7 @@
                         </div>
                         <div class="panel-body">
                             <div class="wrapper" style="padding:100px;">
-                                <h2 style="color:white;">Welcome to PUST eClassroom</h2>
+                                <h2 style="color:white;">Welcome to ICE Classroom</h2>
                                 <h4 style="color:white;">Manage your Created Classes and Notices from Notice Board</h4>
                             </div>
                         </div>

@@ -1,0 +1,26 @@
+version: '3'
+
+# networks:
+#   laravel:
+#     driver: bridge
+
+services:
+  nh:
+    build:
+      context: ./dockerfiles
+      dockerfile: os.dockerfile
+    container_name: nh
+    working_dir: /nh
+    command: 'php artisan serve'
+    ports:
+      - 8000:8000
+      - 3306:3306
+    volumes:
+      - .:/nh
+    network_mode: host
+    # networks:
+    #   - laravel
+
+
+
+

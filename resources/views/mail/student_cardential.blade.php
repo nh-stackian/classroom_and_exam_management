@@ -1,5 +1,5 @@
 <h1>Dear Student {{  $user->name }},</h1>
-<h4>You are receiving this mail because you are enrolled as a student Of IIUC Smart Classroom</h4>
+<h4>You are receiving this mail because you are enrolled as a student Of ICE smart Classroom</h4>
 
 <p>Your Login Cardentials are given below : </p>
 

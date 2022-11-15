@@ -36,22 +36,22 @@
                                 <input type="hidden" class="form-control" name="teacher_id" value="{{ Auth::guard('teacher')->user()->id }}">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Course Name</label>
-                                    <input type="text" class="form-control" name="course_name" placeholder="Ex: Discrete Mathematics" >
+                                    <input type="text" class="form-control" name="course_name" placeholder="Ex: Neural Network" >
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Course Code</label>
-                                    <input type="text" class="form-control" name="course_code" placeholder="Ex: CSE-1203" >
+                                    <input type="text" class="form-control" name="course_code" placeholder="Ex: ICE-4201" >
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword20">Course Session</label>
-                                    <input type="text" class="form-control" name="course_session" placeholder="Ex: Spring 2020" >
+                                    <input type="text" class="form-control" name="course_session" placeholder="Ex: 2016-17" >
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword20">Class Section</label>
-                                    <input type="text" class="form-control" name="class_section" placeholder="Ex: 2BM" >
+                                    <input type="text" class="form-control" name="class_section" placeholder="Ex: A" >
                                 </div>
-                                
-                              
+
+
                                 <button type="submit" class="btn btn-purple waves-effect waves-light">Add Class</button>
                             </form>
                         </div><!-- panel-body -->
@@ -60,7 +60,7 @@
 
             </div>
         </div> <!-- container -->
-                   
+
     </div> <!-- content -->
 </div>
 

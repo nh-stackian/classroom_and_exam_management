@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -44,7 +45,7 @@ Route::namespace('Admin')->prefix('admin')->group(function() {
 	Route::middleware('auth:admin')->group(function() {
 		Route::post('logout', 'LoginController@logout')->name('admin.logout');
 		Route::get('dashboard', 'HomeController@dashboard')->name('dashboard');
-		
+
 		//For Student
 		Route::get('add-student', 'StudentController@student')->name('add-student');
 		Route::post('insert-student', 'StudentController@insertStudent');

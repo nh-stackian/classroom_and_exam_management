@@ -85,7 +85,7 @@ return [
 
     'from' => [
         'address' => 'genuineplus4@gmail.com',
-        'name' => 'PUST eClassroom',
+        'name' => env('APP_NAME'),
     ],
 
     /*

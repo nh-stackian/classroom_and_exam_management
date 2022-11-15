@@ -40,11 +40,11 @@
                         @guest
                         @else
                             <!-- Top Bar Start -->
-            <div class="topbar">
+            <div class="topbar" >
                 <!-- LOGO -->
-                <div class="topbar-left">
+                <div class="topbar-left" >
                     <div class="text-center">
-                        <a href="{{ route('student-dashboard') }}" class="logo"><img style="width:80px;height:70px;" src="{{ URL::to('frontend/images/pust_logo.png') }}" alt="iiuc"></a>
+                        <a href="{{ route('student-dashboard') }}" class="logo"><img style="width:80px;height:70px;" src="{{ URL::to('frontend/images/pust_logo.png') }}" alt="ICE PUST"></a>
                     </div>
                 </div>
                 <!-- Button mobile view to collapse sidebar menu -->
